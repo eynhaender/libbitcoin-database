@@ -181,22 +181,22 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           if [[ -e "libbitcoin-system/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors"
+            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors
           fi
           if [[ -e "libbitcoin-system/obj/test-suite.log" ]]; then
-            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors"
+            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors
           fi
           if [[ -e "libbitcoin-system/obj/test.log" ]]; then
-            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors"
+            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors
           fi
           if [[ -e "libbitcoin-database/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors"
+            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors
           fi
           if [[ -e "libbitcoin-database/obj/test-suite.log" ]]; then
-            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors"
+            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors
           fi
           if [[ -e "libbitcoin-database/obj/test.log" ]]; then
-            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors"
+            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors
           fi
 
       - name: Test artifact upload
@@ -378,22 +378,22 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           if [[ -e "libbitcoin-system/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors"
+            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors
           fi
           if [[ -e "libbitcoin-system/obj/test-suite.log" ]]; then
-            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors"
+            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors
           fi
           if [[ -e "libbitcoin-system/obj/test.log" ]]; then
-            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors"
+            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors
           fi
           if [[ -e "libbitcoin-database/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors"
+            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors
           fi
           if [[ -e "libbitcoin-database/obj/test-suite.log" ]]; then
-            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors"
+            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors
           fi
           if [[ -e "libbitcoin-database/obj/test.log" ]]; then
-            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors"
+            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors
           fi
 
       - name: Test artifact upload
@@ -534,22 +534,22 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           if [[ -e "libbitcoin-system/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors"
+            cp "libbitcoin-system/obj/Testing/Temporary/LastTest.log" libbitcoin-system-LastTest.errors
           fi
           if [[ -e "libbitcoin-system/obj/test-suite.log" ]]; then
-            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors"
+            cp "libbitcoin-system/obj/test-suite.log" libbitcoin-system-test-suite.errors
           fi
           if [[ -e "libbitcoin-system/obj/test.log" ]]; then
-            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors"
+            cp "libbitcoin-system/obj/test.log" libbitcoin-system-test.errors
           fi
           if [[ -e "libbitcoin-database/obj/Testing/Temporary/LastTest.log" ]]; then
-            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors"
+            cp "libbitcoin-database/obj/Testing/Temporary/LastTest.log" libbitcoin-database-LastTest.errors
           fi
           if [[ -e "libbitcoin-database/obj/test-suite.log" ]]; then
-            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors"
+            cp "libbitcoin-database/obj/test-suite.log" libbitcoin-database-test-suite.errors
           fi
           if [[ -e "libbitcoin-database/obj/test.log" ]]; then
-            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors"
+            cp "libbitcoin-database/obj/test.log" libbitcoin-database-test.errors
           fi
 
       - name: Test artifact upload
