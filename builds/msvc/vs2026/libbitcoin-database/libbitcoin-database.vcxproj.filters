@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ |  Copyright (c) 2014-2026 libbitcoin-database developers (see COPYING).
+ |
+ |         GENERATED SOURCE CODE, DO NOT EDIT EXCEPT EXPERIMENTALLY
+ |
+ -->
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\file">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\memory">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\primitives">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\query">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\query\address">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\query\archive">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\query\consensus">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\impl\query\navigate">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\locks">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\memory">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\memory\interfaces">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\primitives">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\tables">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\tables\archives">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\tables\caches">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\tables\indexes">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-0000000000A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\tables\optionals">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-0000000000B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bitcoin\database\types">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-00000000000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-0000000000C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locks">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory\mman-win32">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\types">
+      <UniqueIdentifier>{62D7FBEE-4D52-424A-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\define.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\file\rotator.cpp">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\file\utilities.cpp">
+      <Filter>src\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\locks\file_lock.cpp">
+      <Filter>src\locks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\locks\flush_lock.cpp">
+      <Filter>src\locks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\locks\interprocess_lock.cpp">
+      <Filter>src\locks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\memory\map.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\memory\mman-win32\mman.cpp">
+      <Filter>src\memory\mman-win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\memory\utilities.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\settings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\types\history.cpp">
+      <Filter>src\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\types\unspent.cpp">
+      <Filter>src\types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database.hpp">
+      <Filter>include\bitcoin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\boost.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\define.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\error.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\file\file.hpp">
+      <Filter>include\bitcoin\database\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\file\rotator.hpp">
+      <Filter>include\bitcoin\database\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\file\utilities.hpp">
+      <Filter>include\bitcoin\database\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\locks\file_lock.hpp">
+      <Filter>include\bitcoin\database\locks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\locks\flush_lock.hpp">
+      <Filter>include\bitcoin\database\locks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\locks\interprocess_lock.hpp">
+      <Filter>include\bitcoin\database\locks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\locks\locks.hpp">
+      <Filter>include\bitcoin\database\locks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\accessor.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\finalizer.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\interfaces\memory.hpp">
+      <Filter>include\bitcoin\database\memory\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\interfaces\storage.hpp">
+      <Filter>include\bitcoin\database\memory\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\map.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\memory.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\reader.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\streamers.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\memory\utilities.hpp">
+      <Filter>include\bitcoin\database\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\arrayhead.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\arraymap.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\hashhead.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\hashmap.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\iterator.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\keys.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\linkage.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\manager.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\nomap.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\primitives\primitives.hpp">
+      <Filter>include\bitcoin\database\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\query.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\settings.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\store.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\header.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\input.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\ins.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\output.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\outs.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\point.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\transaction.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\archives\txs.hpp">
+      <Filter>include\bitcoin\database\tables\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\association.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\associations.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\caches\duplicate.hpp">
+      <Filter>include\bitcoin\database\tables\caches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\caches\prevout.hpp">
+      <Filter>include\bitcoin\database\tables\caches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\caches\validated_bk.hpp">
+      <Filter>include\bitcoin\database\tables\caches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\caches\validated_tx.hpp">
+      <Filter>include\bitcoin\database\tables\caches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\context.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\event.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\indexes\height.hpp">
+      <Filter>include\bitcoin\database\tables\indexes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\indexes\strong_tx.hpp">
+      <Filter>include\bitcoin\database\tables\indexes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\names.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\optionals\address.hpp">
+      <Filter>include\bitcoin\database\tables\optionals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\optionals\filter_bk.hpp">
+      <Filter>include\bitcoin\database\tables\optionals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\optionals\filter_tx.hpp">
+      <Filter>include\bitcoin\database\tables\optionals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\point_set.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\schema.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\states.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\table.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\tables\tables.hpp">
+      <Filter>include\bitcoin\database\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\fee_rate.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\header_state.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\history.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\position.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\span.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\type.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\types.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\types\unspent.hpp">
+      <Filter>include\bitcoin\database\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\bitcoin\database\version.hpp">
+      <Filter>include\bitcoin\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\memory\mman-win32\mman.hpp">
+      <Filter>src\memory\mman-win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\memory\accessor.ipp">
+      <Filter>include\bitcoin\database\impl\memory</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\arrayhead.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\arraymap.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\hashhead.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\hashmap.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\iterator.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\keys.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\linkage.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\manager.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\primitives\nomap.ipp">
+      <Filter>include\bitcoin\database\impl\primitives</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\address\address_balance.ipp">
+      <Filter>include\bitcoin\database\impl\query\address</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\address\address_history.ipp">
+      <Filter>include\bitcoin\database\impl\query\address</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\address\address_outpoints.ipp">
+      <Filter>include\bitcoin\database\impl\query\address</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\address\address_unspent.ipp">
+      <Filter>include\bitcoin\database\impl\query\address</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\amounts.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\archive\chain_reader.ipp">
+      <Filter>include\bitcoin\database\impl\query\archive</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\archive\chain_writer.ipp">
+      <Filter>include\bitcoin\database\impl\query\archive</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\archive\wire_reader.ipp">
+      <Filter>include\bitcoin\database\impl\query\archive</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\archive\wire_writer.ipp">
+      <Filter>include\bitcoin\database\impl\query\archive</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\confirmed.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_block.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_chain_state.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_compact.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_forks.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_populate.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_prevouts.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_states.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_strong.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_transaction.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\consensus\consensus_work.ipp">
+      <Filter>include\bitcoin\database\impl\query\consensus</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\extent.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\fee_rate.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\filters.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\height.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\initialize.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\locator.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\merkle.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\navigate\navigate_arraymap.ipp">
+      <Filter>include\bitcoin\database\impl\query\navigate</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\navigate\navigate_forward.ipp">
+      <Filter>include\bitcoin\database\impl\query\navigate</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\navigate\navigate_hashmap.ipp">
+      <Filter>include\bitcoin\database\impl\query\navigate</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\navigate\navigate_natural.ipp">
+      <Filter>include\bitcoin\database\impl\query\navigate</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\navigate\navigate_reverse.ipp">
+      <Filter>include\bitcoin\database\impl\query\navigate</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\properties_block.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\properties_tx.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\query.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\sequences.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\query\sizes.ipp">
+      <Filter>include\bitcoin\database\impl\query</Filter>
+    </None>
+    <None Include="..\..\..\..\include\bitcoin\database\impl\store.ipp">
+      <Filter>include\bitcoin\database\impl</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\..\debug.natvis" />
+  </ItemGroup>
+</Project>
